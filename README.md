@@ -65,7 +65,7 @@ DATABRICKS_WAREHOUSE_ID=your_sql_warehouse_id
 ## 🚀 Components
 
 ### 🔹 PySpark Notebooks
-1. `bronze_ingestion.py`: Reads raw CSV and writes to Bronze Delta table
+1. `bronze_ingestion.py`: Reads raw data in JSON format via API and writes to Bronze Delta table
 2. `silver_transformation.py`: Cleans, types, validates → Silver
 3. `gold_feature_engineering.py`: Extracts ML-ready features → Gold
 
