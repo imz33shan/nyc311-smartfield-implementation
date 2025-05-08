@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pandas
+databricks-sql
+python-dotenv
+requests
